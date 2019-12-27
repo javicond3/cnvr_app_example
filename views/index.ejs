@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>CNVR <%=server%></title>
+    </head>
+    <body>
+        <h1>Bienvenido</h1>
+        <h2>Ha contestado el <%=server%></h1>
+        <div>
+            <%personas.forEach(function(persona){ %>
+                <p><%=persona.identificador%>: <%=persona.nombre%></p>
+            <%})%>
+        </div>
+        <form method="post" action="/addPerson">
+        <input type="text" name="nombre">
+        <input type="submit" value="guardar">
+        </form>
+    </body>
+</html>
+
