@@ -1,10 +1,10 @@
 # cnvr_app_example
 Aplicación para arrancar en OpenStack. 
-##Instalación
+## Instalación
 ```shell
 npm install
 ```
-##Iniciación
+## Iniciación
 - Variables de entorno:
     SERVER :s1 (nombre del servidor, para identificarlo)
     PORT:3000
