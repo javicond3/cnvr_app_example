@@ -6,11 +6,13 @@ npm install
 ```
 ## Iniciación
 - Variables de entorno:
+    ```shell
     SERVER :s1 (nombre del servidor, para identificarlo)
     PORT:3000
     DB_PASSWORD:cnvr
     DB_USER:cnvr
     DB_HOST:127.0.0.1
+```
 - Arrancar:
 ```shell
 npm start
