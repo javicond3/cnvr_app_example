@@ -12,9 +12,9 @@ npm install
     DB_PASSWORD:cnvr
     DB_USER:cnvr
     DB_HOST:127.0.0.1
-```
+    ```
 - Arrancar:
-```shell
-npm start
-```
+    ```shell
+    npm start
+    ```
 - Acceder a http://localhost:3000/ en función del perto e ip en la que se encuentre
