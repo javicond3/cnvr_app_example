@@ -8,7 +8,7 @@ const Sequelize = require('sequelize');
 const password = process.env.DB_PASSWORD || "1234";
 const user = process.env.DB_USER || "cnvr";
 const database = "cnvr";
-let host = process.env.HOST
+let host = process.env.DB_HOST
 console.log("Host: ", host)
 
 const sequelize = new Sequelize(`postgres://${user}:${password}@${host}:5432/${database}`);
