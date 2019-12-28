@@ -1,5 +1,5 @@
 # cnvr_app_example
-Aplicación para arrancar en OpenStack. 
+Aplicación para arrancar en servidores OpenStack con conexión a base de datos POSTGRESQL 
 ## Instalación
 ```shell
 npm install
