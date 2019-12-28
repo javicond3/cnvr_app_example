@@ -10,7 +10,7 @@ const user = process.env.DB_USER || "cnvr";
 const database = "cnvr";
 let host = process.env.DB_HOST
 console.log("Host: ", host)
-
+console.log(`postgres://${user}:${password}@${host}:5432/${database}`);
 const sequelize = new Sequelize(`postgres://${user}:${password}@${host}:5432/${database}`);
 // Importar la definicion de las tablas
 const Persona = sequelize.import(path.join(__dirname, 'Persona'));
