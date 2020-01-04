@@ -28,10 +28,7 @@ app.post('/addPerson', async function(req,res){
   console.log(req.body)
   await models.addPersona(req.body.nombre);
   let personas = await models.getPersonas();
-  res.render('index', {
-    personas: personas,
-    server: server,
-  });
+  res.redirect(`${req.baseUrl}`);
 })
 
 
