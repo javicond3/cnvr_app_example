@@ -16,6 +16,6 @@
     "normalize-path": "^3.0.0",
     "pg": "^6",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^4.44.3"
+    "sequelize": "^5.15.1"
   }
 }
